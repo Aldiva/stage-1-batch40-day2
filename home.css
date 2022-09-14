@@ -1,0 +1,109 @@
+* {
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 8vh;
+    background-color: rgb(255, 253, 250);
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+
+}
+
+nav ul li {
+    margin-right: 50px;
+    font-size: 17px;
+}
+
+.nav-right {
+    text-align: end;
+    margin-right: 56px;
+}
+
+.nav-right a {
+    border: none;
+    background-color: rgb(0, 3, 41);
+    color: white;
+    border-radius: 7px;
+    padding: 6px 14px;
+    font-size: 12px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    height: 90vh;
+    align-items: center;
+    background-color: rgb(231, 231, 231);
+    
+}
+
+section {
+    display: flex;
+    width: 91%;
+    height: 70vh;
+    background-color: rgb(249, 249, 249);
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgb(165, 164, 164);
+}
+
+.left {
+    flex: 60%;
+}
+
+.contain-left {
+    margin-top: 70px;
+    margin-left: 40px;
+    margin-right: 10px;
+}
+
+.button-download {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.button button {
+    border: none;
+    background-color: rgb(2, 8, 51);
+    color: white;
+    padding: 6px 20px;
+    border-radius: 13px;
+}
+
+.download {
+    margin: 0 20px;
+}
+
+.icon {
+    font-size: 30px; 
+    margin-top: 45px;
+}
+
+
+
+
+.right {
+    flex: 40%;
+}
+
+.images {
+    margin-top: 35px ;
+    margin-left: 40px;
+    text-align: center;
+}
+
+
